@@ -7,7 +7,7 @@
     "light": "#5B70FF",
     "dark": "#1F35D6"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/favicon-32.jpg",
   "appearance": {
     "default": "light",
     "strict": true
@@ -78,8 +78,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/pillsoftware-text-logo.png",
+    "dark": "/images/pillsoftware-text-logo.png"
   },
   "navbar": {
     "primary": {
