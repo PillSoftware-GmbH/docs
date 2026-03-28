@@ -1,0 +1,49 @@
+---
+title: "In-checkout settings"
+description: "Configure checkout rules for house numbers, duplicate names, special characters, email typos, regex patterns, and field limits in AddressPill."
+---
+
+## In-checkout validation settings
+
+Use this tab to define what AddressPill checks in checkout.
+
+## How to enable
+
+1. Open **Settings** in AddressPill.
+2. Open **In-checkout validation**.
+3. Turn the top toggle on.
+4. Select your rules.
+5. Click **Save settings**.
+6. Confirm Shopify **Checkout rules** are enabled for AddressPill.
+
+## Rules explained
+
+- **Address validation (require house number)**: checks if a street number exists.
+- **Check names (first and last name must differ)**: catches duplicate names.
+- **Block special characters in address**: flags unusual symbols.
+- **Check email typos**: catches common domain typos.
+- **Block address with custom regex**: blocks patterns you define.
+- **Length limits**: restricts max characters for address fields, names, and company.
+
+For many rules, you can choose:
+
+- **Show warning only**
+- **Block checkout**
+
+<Warning>
+If you are new, start with warnings first, then move to blocking rules after testing.
+</Warning>
+
+## FAQ
+
+### What is the most important in-checkout rule?
+
+Most merchants start with **require house number** because it prevents common delivery failures.
+
+### Can I activate only some in-checkout rules?
+
+Yes, you can enable only the rules you need and leave others off.
+
+### Is it safe to block checkout immediately?
+
+It is safer to start with warnings, validate behavior, and then block critical rules.

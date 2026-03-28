@@ -1,68 +1,62 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "luma",
-  "name": "Mint Starter Kit",
+  "theme": "mint",
+  "name": "AddressPill Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#314AFC",
+    "light": "#5B70FF",
+    "dark": "#1F35D6"
   },
   "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "AddressPill",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Home",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Get Started",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "get-started/addresspill-shopify-walkthrough",
+              "get-started/in-checkout-address-validation-setup",
+              "get-started/post-checkout-address-validation-setup"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "features/in-checkout-validation",
+              "features/post-checkout-validation",
+              "features/packing-stations-po-boxes",
+              "features/tag-orders",
+              "features/orders-on-hold",
+              "features/automations"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Settings",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "settings/in-checkout-validation-rules",
+              "settings/post-checkout-validation-rules",
+              "settings/packing-stations-po-boxes",
+              "settings/tag-orders-by-address-issue",
+              "settings/orders-on-hold-for-address-issues",
+              "settings/shopify-flow-automations"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "FAQ & Troubleshooting",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "faq/shopify-address-validation-faq"
             ]
           }
         ]
@@ -71,14 +65,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Get Started",
+          "href": "https://pillsoftware.com/addresspill",
+          "icon": "house"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Shopify App",
+          "href": "https://addresspill.pillsoftware.com",
+          "icon": "store"
         }
       ]
     }
@@ -88,35 +82,22 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Get Started",
+      "href": "/get-started/addresspill-shopify-walkthrough"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   }
 }

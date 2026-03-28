@@ -1,0 +1,47 @@
+---
+title: "Packing stations / PO boxes"
+description: "Configure keyword detection and blocking behavior for packstations and PO boxes in checkout and post-checkout flows."
+---
+
+## Packing stations / PO boxes settings
+
+Use this tab when you need to detect or block PO box style destinations.
+
+## How to enable
+
+1. Open **Settings**.
+2. Open **Packing stations / PO Boxes**.
+3. Turn on detection.
+4. Configure where to block:
+   - in-checkout
+   - post-checkout
+5. Add your custom keyword names.
+6. Click **Save settings**.
+
+## Main controls
+
+- **Block packing stations in in-checkout validation**
+- **If detected in checkout**: warning or block
+- **Block packing stations in post-checkout validation**
+- **Packing station / PO Box names**: your keyword list
+- **Extra lines to scan**:
+  - Address line 2
+  - Company
+
+<Note>
+Address line 1 and city are always scanned.
+</Note>
+
+## FAQ
+
+### How do I block packstations in checkout?
+
+Enable packstation detection, then turn on in-checkout blocking and choose block mode.
+
+### Can I use custom packstation keywords?
+
+Yes, add your own keywords in the name list.
+
+### Why would I scan Address line 2 and Company?
+
+Customers often place PO box or post number details in those fields.
